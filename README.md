@@ -1,0 +1,2 @@
+# typescript-dersi
+Typescript Öğreniyorum
