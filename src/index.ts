@@ -1,10 +1,9 @@
-import {Person, Student, job} from './all'
+// type MyObject = Partial<{
+//     isim:string;
+//     yas: string;
+// }>;
 
-
-const a: Student = {
-    isim: 'Ahmet',
-    sinif: 2
+const myObject: Record<string, { yas: number}> = {
+    kadir: { yas: 20},
+    ahmet: { yas: 25}
 }
-
-console.log(Person.isim);
-console.log(a);
